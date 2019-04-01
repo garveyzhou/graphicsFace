@@ -221,6 +221,7 @@ void parse_file ( char * filename,
     else if ( strncmp(line, "clear", strlen(line)) == 0 ) {
       //printf("clear\t%s", line);
       edges->lastcol = 0;
+      polygons->lastcol =0;
     }//end clear
 
     else if ( strncmp(line, "ident", strlen(line)) == 0 ) {

@@ -23,8 +23,6 @@ move
 250 250 0
 apply
 display
-save
-pic.png
 #reset sphere, rotate 90 degrees about x to check lines
 ident
 move

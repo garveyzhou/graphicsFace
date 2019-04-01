@@ -1,0 +1,23 @@
+sphere
+0 0 0 200
+torus
+0 0 0 200 100
+torus
+0 0 0 250 200
+ident
+move
+350 150 0
+apply
+display
+ident
+rotate
+z 45
+apply
+display
+ident
+rotate
+x 45
+apply
+display
+save
+pic.png
